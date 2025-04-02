@@ -19,5 +19,5 @@ window.onload = function() {
 
   console.log("Hello Rigo from the console!");
 
-  document.querySelector("#excuse").innerHTML = who[whoarandom] +" "+ action[actionrandom] +" "+ what[whatrandom] +" "+ when[whenrandom]
+  document.querySelector("#excuse").innerHTML = `${who[whoarandom]} ${action[actionrandom]} ${what[whatrandom]} ${when[whenrandom]}`
 };
